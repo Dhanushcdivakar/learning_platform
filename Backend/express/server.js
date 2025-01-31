@@ -27,6 +27,9 @@ app.use('/api/students', studentRoutes);
 app.use('/api/register',register);
 app.use('/api/login',login);
 
+app.get('/', (req, res) => {
+  res.send('Hello World! Your backend is successfully deployed.');
+});
 
 // Start Server
 const PORT = process.env.PORT || 4000;
