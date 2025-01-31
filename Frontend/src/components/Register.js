@@ -17,7 +17,7 @@ function Register() {
             return;
         }
 
-        axios.post("http://localhost:4000/api/register", { name, usn, score, password })
+        axios.post("https://learning-platformapi.vercel.app/api/register", { name, usn, score, password })
             .then(result => {
                 console.log("Registration successful:", result);
                 navigate("/Login");
