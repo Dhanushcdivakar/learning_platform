@@ -1,0 +1,5 @@
+apiKey=AIzaSyDk4TTNdT8M539TMau6MLfDtD92sK9nPyY;
+ChanellKey(telusko)=UC59K-uG2A5ogwIrHw4bmlEg;
+"uploads": "UU59K-uG2A5ogwIrHw4bmlEg";
+
+url=https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=200&playlistId=UU59K-uG2A5ogwIrHw4bmlEg&key=AIzaSyDk4TTNdT8M539TMau6MLfDtD92sK9nPyY;
