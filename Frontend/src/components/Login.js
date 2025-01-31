@@ -26,7 +26,7 @@ function Login({ setUser }) {
     }
 
     axios
-      .post('http://localhost:4000/api/login', { usn, password })
+      .post('https://learning-platformapi.vercel.app/api/login', { usn, password })
       .then((result) => {
         if (result.data.status === 'success') {
           setUser(result.data.user); // Store user in parent state
