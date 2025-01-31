@@ -9,7 +9,7 @@ const LeadersBoard = ({ user }) => {
   useEffect(() => {
     const fetchStudents = async () => {
       try {
-        const response = await axios.get('http://localhost:4000/api/students');
+        const response = await axios.get('https://learning-platformapi.vercel.app/api/students');
         
         // Sort students by score in descending order
         const sortedStudents = response.data.sort((a, b) => b.score - a.score);
